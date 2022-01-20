@@ -5,6 +5,11 @@
     /* overflow: hidden; */
 }
 
+*:focus {
+    outline: 2px dotted #7a2ede;
+    outline-offset: 3px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -87,7 +92,7 @@ body {
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0.5px;
-    font-size: 25px;
+    font-size: 20   px;
     color: #868686;
 }
 
@@ -100,5 +105,20 @@ body {
     border-radius: 45px;
     font-size: 30px;
     padding: 12px 60px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    transition: all 0.5s linear;
 }
+
+.btn:hover,
+.main-link:hover {
+    opacity: 0.8;
+}
+
+.btn:active,
+.main-link:active {
+    opacity: 0.6;
+}
+
+
 /* /MAIN */
